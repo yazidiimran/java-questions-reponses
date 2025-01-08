@@ -5,13 +5,15 @@
 ### LTS Java versions:
 
 #### Java 8 (2014)
-- Lambda Expressions
-- Stream API
-- Optional class
+- Lambda Expressions: fonction sans nom qui peut être utilisée comme argument dans une méthode, offrent une manière clair de définir des méthodes anonymes, simplifier l'utilisation des interfaces fonctionnelles et de l'API Stream, rendre le code plus propre et plus lisible, une syntaxe simplifiée pour définir une instance d'une interface fonctionnelle. Elle permet de fournir l'implémentation d'une méthode directement, sans avoir besoin de créer une nouvelle classe ou une classe anonyme pour cela.
+- Stream API: traiter des collections de manière déclarative et manipuler les données de manière fluide.Elle permet de réaliser des opérations fonctionnelles telles que le filtrage, le tri, le mapping et la réduction de données en utilisant des expressions lambda et des méthodes de l'API.  Il existe deux types d'opérations sur les streams :
+Opérations intermédiaires : retournent un nouveau stream (filter, map, sorted).
+Opérations terminales :  produisent un résultat (comme collect, forEach, reduce).
+- Optional class: permet de gérer de manière sûre les valeurs null et sert à éviter les problèmes de NullPointerExceptions. Un Optional est un conteneur contient soit une valeur non nulle ou une valeur nulle.
 - Default and Static Interface Methods
 
 #### Java 11 (2018)
-- HTTP Client (Standard)
+- HTTP Client
 - String Improvements: isBlank(), strip(): Removes leading and trailing spaces, repeat(), lines(): splits the string into a stream of lines 
 
 #### Java 17 (2021)
