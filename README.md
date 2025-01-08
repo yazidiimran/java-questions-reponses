@@ -19,7 +19,7 @@
 - Records
 
 #### Java 21 (2023)
-- Virtual Threads
+- Virtual Threads:  creation of millions of threads,  lightweight and fast to create, Much lower memory, Managed by the JVM not OS
 - Foreign Function and Memory API (Incubator)
 
 ---
