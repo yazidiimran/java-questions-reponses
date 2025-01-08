@@ -7,28 +7,18 @@
 #### Java 8 (2014)
 - Lambda Expressions
 - Stream API
-- Date and Time API (java.time)
 - Optional class
 - Default and Static Interface Methods
 
 #### Java 11 (2018)
 - HTTP Client (Standard)
-- Local-Variable Syntax for Lambda Parameters
-- String Improvements
-- Optional HTTP/2 Client
-- Enhanced Core Libraries
+- String Improvements: isBlank(), strip(): Removes leading and trailing spaces, repeat(), lines(): splits the string into a stream of lines 
 
 #### Java 17 (2021)
 - Sealed Classes and Interfaces
-- Pattern Matching for instanceof
 - Records
-- Enhanced Switch Expressions
-- Removal of Experimental AOT and JIT Compiler
 
 #### Java 21 (2023)
-- String Templates (Preview)
-- Sequenced Collections
-- Pattern Matching for switch and Record Patterns
 - Virtual Threads
 - Foreign Function and Memory API (Incubator)
 
